@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+//Entrada de dados:
+   Nota1
+   Nota2
+   Nota3
+//Processamento
+   Calcular média
+//Saida
+   Mostrar se foi aprovado ou reprovado
+=========================================
+Algoritmo:
+
+Ler Nota1
+Ler Nota2
+Ler Nota3
+
+TotalNotas = Nota1 + Nota2 + Nota3
+Media = TotalNotas / 3
+
+Se media >= 7 entao
+   escreva "Aprovado"
+Se não
+=======
+//Entrada de dados:
+   Nota1
+   Nota2
+   Nota3
+//Processamento
+   Calcular média
+//Saida
+   Mostrar se foi aprovado ou reprovado
+=========================================
+Algoritmo:
+
+Ler Nota1
+Ler Nota2
+Ler Nota3
+
+TotalNotas = Nota1 + Nota2 + Nota3
+Media = TotalNotas / 3
+
+Se media >= 7 entao
+   escreva "Aprovado"
+Se não
+>>>>>>> c0d2189e076aab68af073ee55219ee639f9a5db6
+=======
+//Entrada de dados:
+   Nota1
+   Nota2
+   Nota3
+//Processamento
+   Calcular média
+//Saida
+   Mostrar se foi aprovado ou reprovado
+=========================================
+Algoritmo:
+
+Ler Nota1
+Ler Nota2
+Ler Nota3
+
+TotalNotas = Nota1 + Nota2 + Nota3
+Media = TotalNotas / 3
+
+Se media >= 7 entao
+   escreva "Aprovado"
+Se não
+>>>>>>> deebbbfb64118bec7d3f89ae9d216116d04f9b27
+   escreva "Reprovado"
