@@ -4,9 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class App {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
 
         Random rd = new Random();
@@ -20,14 +17,17 @@ public class App {
         while (numero != numeroAleatorio) {
             numero = sc.nextInt();
             if (numero >= 1 && numero <= 10) {
-                System.out.println("O número está no intervalo :D");
-            } else {
-                System.out.println("O número não está no intervalo :( ");
-            }
-            if (numero >= numeroAleatorio) {
-                System.out.println("Pra baixo.");
-            } else {
-                System.out.println("Pra cima.");
+                if (numero == numeroAleatorio) {
+                    System.out.println("O número está no intervalo :D");
+                    break;
+                } else {
+                    int diferenca = Math.abs(numero - numeroAleatorio);
+                    if (diferenca <= 2) {
+                        System.out.println("Quente!");
+                    } else {
+                        System.out.println("Frio!");
+                    }
+                }
             }
 
         }
